@@ -1,0 +1,18 @@
+{
+    "name": "AttributeLibEd",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4e3c082054bc54f3898cf9a820cf2bc8"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
