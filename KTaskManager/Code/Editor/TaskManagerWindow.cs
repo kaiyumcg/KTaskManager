@@ -7,7 +7,7 @@ namespace KTaskManager
 {
     internal class TaskManagerWindow : EditorWindow
     {
-        [MenuItem("Tool/TaskManager/Show Current Tasks")]
+        [MenuItem("Tools/TaskManager/Show Current Tasks")]
         static void Init()
         {
             TaskManagerWindow window = (TaskManagerWindow)EditorWindow.GetWindow(typeof(TaskManagerWindow));
