@@ -17,7 +17,7 @@ namespace KTaskManager
 
         void OnGUI()
         {
-            var tasks = TaskManager.tasks;
+            var tasks = TaskManager.Tasks;
             if (tasks != null && tasks.Count > 0)
             {
                 for (int i = 0; i < tasks.Count; i++)

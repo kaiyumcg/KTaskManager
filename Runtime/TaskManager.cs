@@ -7,6 +7,9 @@ namespace KTaskManager
     public static class TaskManager
     {
         internal static List<TaskHandle> tasks = null;
+#if UNITY_EDITOR
+        public static List<TaskHandle> Tasks { get { return tasks; } }
+#endif
 
         public static TaskHandle CreatePerFrameTask(string taskName, IEnumerator taskRoutine,
             TaskCondition pauseCondition = null, TaskCondition exitCondition = null)
