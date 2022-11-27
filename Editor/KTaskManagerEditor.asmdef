@@ -2,7 +2,8 @@
     "name": "KTaskManagerEditor",
     "rootNamespace": "",
     "references": [
-        "KTaskManager"
+        "KTaskManager",
+        "EditorUtil"
     ],
     "includePlatforms": [
         "Editor"
