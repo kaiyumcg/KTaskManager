@@ -3,7 +3,7 @@
     "rootNamespace": "",
     "references": [
         "KTaskManager",
-        "EditorUtil"
+        "KEditorUtil"
     ],
     "includePlatforms": [
         "Editor"
