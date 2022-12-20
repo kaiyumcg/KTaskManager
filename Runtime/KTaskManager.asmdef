@@ -2,7 +2,7 @@
     "name": "KTaskManager",
     "rootNamespace": "",
     "references": [
-        "AttributeExt",
+        "AttributeExt2",
         "UnityExt"
     ],
     "includePlatforms": [],
